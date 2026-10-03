@@ -173,3 +173,9 @@ are needed.
   `modify_crop_field(rv$crops_list, id, "water_l_day", 20)`.
 - **Change the planning horizon**: `analyze_duration(crops, horizon_days = 120)`.
 - **Change the rotation "rest" period**: `build_schedule(crops, rotation_gap_days = 7)`.
+
+---
+
+## 8. Live Application
+
+[View the Live Smart Rooftop Farm Application](https://praveena010203.shinyapps.io/Smart-Rooftop-Farm/)
