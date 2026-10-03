@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160">
+  <rect width="200" height="160" rx="14" fill="#c68a4e" opacity="0.18"/>
+  <circle cx="100" cy="62" r="40" fill="#c68a4e"/>
+  <text x="100" y="76" font-size="42" text-anchor="middle" dominant-baseline="middle">🥔</text>
+  <text x="100" y="134" font-size="15" font-family="Verdana,Arial,sans-serif" fill="#2f3b2f" text-anchor="middle" font-weight="bold">Potato</text>
+</svg>

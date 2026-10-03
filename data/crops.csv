@@ -1,0 +1,19 @@
+crop_id,crop_name,category,scientific_name,min_sunlight,preferred_sunlight,water_requirement_l_day,space_requirement_m2,min_temp_c,max_temp_c,growth_duration_days,harvest_duration_days,expected_yield_kg,root_type,crop_family,rotation_group,companion_crops,incompatible_crops,suitable_season,difficulty_level
+1,Tomato,Fruit Vegetable,Solanum lycopersicum,Medium,High,9,2,18,29,75,14,4,Deep,Solanaceae,GroupA,Basil;Carrot;Onion,Potato;Corn,Summer,Medium
+2,Potato,Root Vegetable,Solanum tuberosum,Medium,High,9,2.5,15,24,90,10,5,Deep,Solanaceae,GroupA,Beans;Corn,Tomato;Cucumber,Spring,Easy
+3,Carrot,Root Vegetable,Daucus carota,Medium,Medium,3,1,16,24,70,14,2,Deep,Apiaceae,GroupD,Tomato;Onion;Lettuce,Dill,Spring,Easy
+4,Spinach,Leafy Green,Spinacia oleracea,Low,Medium,1.5,0.5,10,24,40,20,1.5,Shallow,Amaranthaceae,GroupE,Strawberry;Cabbage,None,Winter,Easy
+5,Radish,Root Vegetable,Raphanus sativus,Low,Medium,1,0.3,10,24,28,10,1,Shallow,Brassicaceae,GroupC,Carrot;Cucumber,Hyssop,Spring,Easy
+6,Beans,Legume,Phaseolus vulgaris,Medium,High,4.5,1.5,16,30,60,14,3,Medium,Fabaceae,GroupB,Carrot;Cucumber;Potato,Onion;Garlic,Summer,Easy
+7,Cabbage,Leafy Vegetable,Brassica oleracea,Medium,High,8,2,15,24,80,20,3,Shallow,Brassicaceae,GroupC,Onion;Celery,Tomato;Strawberry,Winter,Medium
+8,Cucumber,Vine Vegetable,Cucumis sativus,Medium,High,10,2,18,30,55,14,5,Medium,Cucurbitaceae,GroupF,Beans;Radish;Corn,Potato,Summer,Medium
+9,Onion,Bulb Vegetable,Allium cepa,Medium,High,2.5,0.8,13,28,100,30,1.5,Shallow,Alliaceae,GroupD,Carrot;Cabbage,Beans;Peas,Spring,Medium
+10,Lettuce,Leafy Green,Lactuca sativa,Low,Medium,1.5,0.4,10,22,45,20,1,Shallow,Asteraceae,GroupE,Carrot;Radish,Broccoli,Winter,Easy
+11,Basil,Herb,Ocimum basilicum,Medium,High,1,0.3,18,30,50,30,0.5,Shallow,Lamiaceae,GroupF,Tomato;Pepper,Rue,Summer,Easy
+12,Bell Pepper,Fruit Vegetable,Capsicum annuum,Medium,High,7,1.5,18,30,70,20,2,Medium,Solanaceae,GroupA,Basil;Onion,Beans;Cabbage,Summer,Medium
+13,Garlic,Bulb Vegetable,Allium sativum,Medium,High,1.5,0.4,10,24,150,30,0.8,Shallow,Alliaceae,GroupD,Tomato;Carrot,Beans;Peas,Winter,Easy
+14,Peas,Legume,Pisum sativum,Medium,Medium,3,1,10,21,60,14,2,Medium,Fabaceae,GroupB,Carrot;Radish,Onion;Garlic,Winter,Easy
+15,Eggplant,Fruit Vegetable,Solanum melongena,Medium,High,10,2,18,30,80,20,3,Deep,Solanaceae,GroupA,Beans;Pepper,Fennel,Summer,Medium
+16,Broccoli,Leafy Vegetable,Brassica oleracea var. italica,Medium,High,7,1.8,15,24,65,14,2.5,Shallow,Brassicaceae,GroupC,Onion;Celery,Tomato;Lettuce,Winter,Medium
+17,Corn,Grain Vegetable,Zea mays,Medium,High,13,3,18,32,90,14,4,Deep,Poaceae,GroupF,Beans;Cucumber,Tomato,Summer,Medium
+18,Mint,Herb,Mentha spicata,Low,Medium,1,0.3,15,28,45,60,0.5,Shallow,Lamiaceae,GroupF,Cabbage;Tomato,Parsley,Summer,Easy

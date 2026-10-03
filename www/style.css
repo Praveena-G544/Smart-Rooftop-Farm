@@ -1,0 +1,158 @@
+/* ============================================================
+   style.css - Smart Rooftop Micro-Farm
+   ============================================================ */
+
+body {
+  font-family: 'Segoe UI', Verdana, Arial, sans-serif;
+  background: #f4f7f2;
+  color: #223322;
+}
+
+/* ---------- Top navigation / progress bar ---------- */
+.srf-topbar {
+  background: linear-gradient(135deg, #2f6b3a, #4c9a4f);
+  color: white;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+.srf-topbar h2 { margin: 0; font-size: 20px; }
+.srf-topbar .step-label { font-size: 13px; opacity: 0.9; }
+
+.srf-progress-wrap {
+  background: #e2e2e2;
+  height: 8px;
+  width: 100%;
+}
+.srf-progress-bar {
+  background: linear-gradient(90deg, #6fc86a, #2f6b3a);
+  height: 8px;
+  transition: width 0.4s ease;
+}
+
+.srf-steps {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 24px;
+  background: white;
+  font-size: 11px;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+.srf-step { color: #999; padding: 2px 6px; }
+.srf-step.active { color: #2f6b3a; font-weight: bold; }
+.srf-step.done { color: #4c9a4f; }
+
+/* ---------- Page container ---------- */
+.srf-page { padding: 26px 30px 60px 30px; max-width: 1180px; margin: 0 auto; }
+
+/* ---------- Cards ---------- */
+.srf-card {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  margin-bottom: 18px;
+}
+
+.srf-feature-grid, .srf-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+.srf-feature-card {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: transform .15s ease;
+}
+.srf-feature-card:hover { transform: translateY(-3px); }
+.srf-feature-card .emoji { font-size: 32px; }
+
+.srf-metric {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.srf-metric .value { font-size: 26px; font-weight: 700; color: #2f6b3a; }
+.srf-metric .label { font-size: 12px; color: #667; text-transform: uppercase; letter-spacing: .5px;}
+
+/* ---------- Crop cards ---------- */
+.crop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+.crop-card {
+  background: white;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: all .15s ease;
+}
+.crop-card:hover { box-shadow: 0 4px 10px rgba(0,0,0,0.15); }
+.crop-card.selected { border-color: #2f6b3a; background: #eaf6ea; }
+.crop-card img { width: 100%; border-radius: 8px; }
+.crop-card .crop-name { font-weight: 700; margin-top: 6px; }
+.crop-card .crop-meta { font-size: 11px; color: #667; }
+
+/* ---------- Status badges ---------- */
+.badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.badge-ok   { background: #dff5df; color: #1f6b1f; }
+.badge-warn { background: #fff3d6; color: #9a6a00; }
+.badge-fail { background: #fbe1e1; color: #a12727; }
+.badge-none { background: #eee; color: #888; }
+
+/* ---------- Rooftop layout ---------- */
+.rooftop-plan {
+  display: grid;
+  gap: 10px;
+  background: #d8e8d0;
+  border: 3px solid #4c9a4f;
+  border-radius: 10px;
+  padding: 14px;
+}
+.rooftop-zone {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  min-height: 90px;
+  border: 2px dashed #8fbf8f;
+  text-align: center;
+  font-size: 12px;
+}
+.rooftop-zone b { display: block; font-size: 13px; margin-bottom: 4px; }
+
+/* ---------- Timeline ---------- */
+.rotation-timeline { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 10px; }
+.timeline-node {
+  background: #eaf6ea; border: 1px solid #bcdcbc; border-radius: 8px;
+  padding: 8px 12px; font-size: 12px; text-align: center;
+}
+.timeline-arrow { color: #4c9a4f; font-size: 18px; }
+
+/* ---------- Buttons ---------- */
+.btn-srf-primary {
+  background: #2f6b3a !important; color: white !important; border: none !important;
+  padding: 9px 22px !important; border-radius: 8px !important; font-weight: 600 !important;
+}
+.btn-srf-secondary {
+  background: white !important; color: #2f6b3a !important; border: 1px solid #2f6b3a !important;
+  padding: 9px 22px !important; border-radius: 8px !important; font-weight: 600 !important;
+}
+.srf-nav-row { display: flex; justify-content: space-between; margin-top: 26px; }
+
+table.srf-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+table.srf-table th { background: #eef5ec; text-align: left; padding: 8px; font-size: 12px; }
+table.srf-table td { padding: 8px; border-top: 1px solid #eee; font-size: 13px; }
